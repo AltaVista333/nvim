@@ -4,6 +4,8 @@ vim.cmd("set nocompatible")
 vim.cmd("filetype plugin on")
 vim.cmd("syntax on")
 
+opt.langmap =
+	"ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz"
 -- line numbers
 opt.relativenumber = true
 opt.number = true

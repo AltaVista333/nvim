@@ -6,8 +6,7 @@ local keymap = vim.keymap
 ---------------------
 -- General Keymaps
 ---------------------
-keymap.langmap =
-	"ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz"
+
 -- use jk to exit insert mode
 -- keymap.set("i", "jk", "<ESC>")
 

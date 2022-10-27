@@ -101,6 +101,8 @@ return packer.startup(function(use)
 
 	use("vimwiki/vimwiki")
 
+	use("mfussenegger/nvim-jdtls")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
